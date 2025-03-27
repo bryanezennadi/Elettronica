@@ -1,0 +1,105 @@
+/* Stile generale del corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titolo principale */
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Titolo "E molto altro..." */
+h2 {
+    font-size: 24px;
+    color: #555;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Sezione delle carte */
+.container {
+    display: flex;  /* Utilizza il flexbox per allineare le carte */
+    justify-content: center;  /* Centra le carte orizzontalmente */
+    gap: 30px;  /* Aggiunge spazio tra le carte */
+    flex-wrap: wrap;  /* Permette alle carte di andare a capo quando lo schermo è troppo stretto */
+    margin-top: 30px;  /* Distanza dalla parte superiore */
+}
+
+/* Stile delle carte */
+.card {
+    width: 300px;  /* Imposta una larghezza fissa per le carte */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;  /* Distanza tra le carte */
+}
+
+.card:hover {
+    transform: translateY(-10px);  /* Effetto di sollevamento della carta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Ombra più grande al passaggio del mouse */
+}
+
+/* Stile dell'immagine delle carte */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Corpo della carta */
+.card-body {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Titolo della carta */
+.card-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Testo della carta */
+.card-text {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Bottone di login */
+.btn-primary {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 40px;  /* Maggiore larghezza */
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;  /* Rende il bottone un elemento di blocco, centrato */
+    width: 300px;  /* Imposta una larghezza fissa per il bottone */
+    text-align: center;  /* Centra il testo nel bottone */
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+/* Bottone di registrazione */
+.btn-secondary {
+    text-decoration: none;
+    background-color:red;
+    color: white;
+    padding: 15px 40px;  /* Maggiore larghezza */
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;  /* Rende il bottone un elemento di blocco, centrato */
+    width: 300px;  /* Imposta una larghezza fissa per il bottone */
+    text-align: center;  /* Centra il testo nel bottone */
+}
+
+.btn-secondary:hover {
+    background-color: #d43f3f;
+}
+

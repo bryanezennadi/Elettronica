@@ -1,0 +1,84 @@
+/* Sfondi e Layout */
+body {
+    background-color: #f8f9fa; /* Sfondi chiari per il body */
+    font-family: Arial, sans-serif; /* Font chiaro per una buona leggibilità */
+}
+
+.card {
+    background-color: #ffffff; /* Sfondo bianco per la card */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Leggera ombra */
+    padding: 30px;
+}
+
+/* Colori e stile del form */
+.card h2 {
+    color: #e74c3c; /* Rosso scuro per il titolo */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #e74c3c; /* Rosso scuro per le etichette */
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 2px solid #e74c3c; /* Bordo rosso per i campi di input */
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.form-control:focus {
+    border-color: #c0392b; /* Rosso più scuro quando il campo è in focus */
+    box-shadow: 0 0 10px rgba(192, 57, 43, 0.2);
+}
+
+/* Stile per i messaggi di errore */
+.text-danger {
+    color: #c0392b; /* Rosso scuro per gli errori */
+    font-size: 0.875rem;
+}
+
+/* Pulsanti */
+.btn-primary {
+    background-color: #e74c3c; /* Rosso per il bottone */
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b; /* Rosso più scuro quando il bottone è hoverato */
+}
+
+.btn-primary:active {
+    background-color: #a93226; /* Rosso scuro quando il bottone è cliccato */
+}
+
+/* Link e messaggi */
+a {
+    color: #e74c3c; /* Rosso per i link */
+}
+
+a:hover {
+    color: #c0392b; /* Rosso scuro al passaggio del mouse */
+}
+
+/* Responsività per i dispositivi mobili */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+
+    .form-label, .form-control {
+        font-size: 0.9rem; /* Adatta la dimensione dei caratteri per dispositivi più piccoli */
+    }
+}
