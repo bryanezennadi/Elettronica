@@ -32,7 +32,6 @@
         </form>
     </div>
 </div>
-<?php echo password_hash( 'AAA', PASSWORD_DEFAULT) ?>
 
 <!-- Bootstrap JS (opzionale) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0p7zL6qNCknmbrq+lPnb6PQQEkrmgt03zU8/qW1H30bKvP1x" crossorigin="anonymous"></script>
